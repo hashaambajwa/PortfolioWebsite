@@ -1,0 +1,237 @@
+
+header {
+    position: fixed;
+    top: 20px;
+    right: 100px;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 30px;
+    justify-content: flex-end;
+  }
+  
+  nav li {
+    margin: 0 10px;
+  }
+  .home{
+    color: black;
+  }
+  
+  nav a {
+    color: rgb(0, 55, 255);
+    text-decoration: none;
+    font-size: 17px;
+	font-family: 'Baloo Chettan 2', cursive;
+  }
+  
+  nav a:hover {
+    color: lightgray;
+  }
+
+  .logo {
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    width: 75px;
+    height: 75px;
+  }
+  @keyframes fade {
+    0% {
+      background-color: red;
+    }
+    50% {
+      background-color: blue;
+    }
+    100% {
+      background-color: red;
+    }
+  }
+  
+  .middlecontainer{
+	text-align: center;
+    width: 100%;
+    height: 950px;
+    background-color white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  #p1{
+    font-size: 1rem;
+    text-align: center;
+    color: rgb(24, 110, 180);
+    font-family: "Rockwell",cursive;
+    
+  }
+
+  .topcontainer {
+    background-image: url(travel-landmark-pakistan-skyline-silhouette-vector-isolated-cityscape-travel-landmark-pakistan-skyline-silhouette-250790149.jpg);
+    width: 100%;
+    height: 650px;
+    background-color: #e1ebe8;
+    margin: 0;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+    z-index: 0;
+  }
+  .topcontainer:before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    z-index: 1000;
+    background: linear-gradient(transparent, #fff);
+  }
+
+  h1{
+	color: #0f4c75;
+	font-family: 'Rockwell', cursive;
+	font-size: 50px;
+	margin: 50px auto 0 auto;
+    padding-top: 100px;
+    text-align: center;
+}
+
+p{
+	line-height: 2;
+	display: block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: normal;
+	font-size: 16px;
+	padding: 0 auto 0 auto;
+}
+.yu{
+    padding-top: 30px;
+    width: 170px;
+    height: 170px; 
+}
+
+
+h2{
+	color: #0f4c75;
+	font-family: 'Rockwell', cursive;
+	font-size: 25px;
+    padding-top: 20px;
+}
+
+#about{
+    flex-direction: column;
+    display: flex;
+    margin-left: 250px;
+    margin-right: 250px;
+    color: #0f4c75;
+	font-family: 'Rockwell', cursive;
+	font-size: 15px;
+
+}
+
+.side-by-side {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px; 
+  }
+  .side-by-side2 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    width: 100px;
+    height: 100px; 
+  }
+
+  .bottomcontainer{
+    text-align: center;
+    width: 100%;
+    height:500px;
+    background-color white;
+    position: relative;
+    overflow: hidden;
+  }
+
+/* CSS */
+.button {
+    display: inline-block;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: #fff;
+    background-color: #000;
+    border-radius: 4px;
+  }
+  
+  .button:hover {
+    background-color: darkblue;
+  }
+
+  .projectone{
+    text-align: center;
+    width: 100%;
+    height: 2500px;
+    background-color white;
+    position: relative;
+    overflow: hidden;
+    padding-top: 20px;
+  }
+  
+ .project-heading{
+    padding-top: 100px;
+ }
+ .project2-heading{
+    padding-top: 35px;
+ }
+ video {
+    width: 320px;
+    height: 240px;
+    border: 2px solid black;
+  }
+  h3 {
+    color: #0f4c75;
+	font-family: 'Rockwell', cursive;
+	font-size: 17px;
+    padding-top: 5px;
+}
+
+.side-by-side3 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    width: 200px;
+    height: 200px; 
+    padding-bottom: 50px;
+  }
+  
+  .side-by-side4 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 30px;
+    width: 500px;
+    height: 400px; 
+    padding-top: 20px;
+  }
+  footer{
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.5);
+    text-align: center;
+  }
+  .padding-footer{
+    padding-top: 10px;
+  }
+
+  .side-by-side5 {
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 67px;
+    margin-left: 50px;
+    margin-right: 150px;
+    width: 130px;
+    height: 130px; 
+  }
